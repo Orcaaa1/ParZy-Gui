@@ -37,6 +37,15 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea80f1b008dbe2
 })
 
 
+Tab:AddButton({
+	Name = "Ghostware V1 Hub",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Exohacks/Ghostware-/main/Ghostware-V1'),true))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
 local Section = Tab:AddSection({
 	Name = "Script with key✅🔑"
 })
@@ -88,6 +97,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/
       		print("Succeed😁🥳")
   	end    
 })
+
+
+Tab:AddButton({
+	Name = "Shiny Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ZaqueHub/ShinyHub-MMSea/main/MEME%20SEA%20PROTECT.txt'))()	
+      		print("Succeed😁🥳")
+  	end    
+})
+
 
 
 local Section = Tab:AddSection({
