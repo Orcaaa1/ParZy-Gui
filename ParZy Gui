@@ -9,7 +9,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "Script"
+	Name = "Script without key❌🔑"
 })
 
 Tab:AddButton({
@@ -18,4 +18,134 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/trashscript/main/chaotic.lua"))()
       		print("Succeed😁🥳")
   	end    
-}) 
+})
+
+Tab:AddButton({
+	Name = "REDz Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()	
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "NEXAM HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea80f1b008dbe2b77b7ac8b3a525a180.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Script with key✅🔑"
+})
+
+
+Tab:AddButton({
+	Name = "Speed Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FriezGG/Scripts/main/Speed%20X%20BladeBall"))()	
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "🌊🐕 - Meme Sea",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script without key❌🔑"
+})
+
+
+Tab:AddButton({
+	Name = "REDz Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/MemeSea/main/Source.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Domadicoof Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Xzibits/Meme%20Sea%20Script'))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Omg Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Script with key✅🔑"
+})
+
+
+Tab:AddButton({
+	Name = "Yuto Hub",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Binintrozza/yutv2e/main/Yutohub')))
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Elgato Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/ElgatoHub/main/Loader.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "🏠 - brookhaven",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Script without key❌🔑"
+})
+
+
+Tab:AddButton({
+	Name = "REDz Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sander X Hub V3",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Sander-X-Hub-Latest-Version-3-16718"))()	
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Imperal Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-Imperial-Hub-13360"))()	
+      		print("Succeed😁🥳")
+  	end    
+})
