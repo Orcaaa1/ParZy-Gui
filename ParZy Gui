@@ -164,7 +164,77 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Sander-X-Hub-L
 Tab:AddButton({
 	Name = "Imperal Hub",
 	Callback = function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-Imperial-Hub-13360"))()	
+loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-Imperial-Hub-13360"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "🌊🍍 - Blox Fruit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script without key❌🔑"
+})
+
+Tab:AddButton({
+	Name = "Speed Hub X",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/V3PRO/main/main.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "YTB Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KhanhTranVan/Guest/main/thankforbuying"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Summer Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EvenZ1/EvenZYeuEm/main/SummerMain"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Script with key✅🔑"
+})
+
+
+Tab:AddButton({
+	Name = "Nope Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zunes-Bypassed/NOPE/main/NOPE.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "HOHO Hub V4",
+	Callback = function()
+_G.HohoVersion = "v4"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
       		print("Succeed😁🥳")
   	end    
 })
