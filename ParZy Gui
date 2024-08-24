@@ -446,9 +446,17 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "Script without key❌🔑"
+})
 
-
-
+Tab:AddButton({
+	Name = "Yarhm Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+      		print("Succeed😁🥳")
+  	end    
+})
 
 
 
