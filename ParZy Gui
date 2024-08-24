@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Gui V1.2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Blade Ball",
@@ -46,6 +46,28 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Exohacks/Ghostware-/
 })
 
 
+Tab:AddButton({
+	Name = "Visualizer Auto Parry",
+	Callback = function()
+getgenv().visualizer = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Plutonium Lua",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+
 local Section = Tab:AddSection({
 	Name = "Script with key✅🔑"
 })
@@ -59,6 +81,21 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FriezGG/Scripts/main/
   	end    
 })
 
+Tab:AddButton({
+	Name = "Alchemy Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zap Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://www.zaphub.xyz/Exec'))()
+      		print("Succeed😁🥳")
+  	end    
+})
 
 
 local Tab = Window:MakeTab({
