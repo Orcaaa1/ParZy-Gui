@@ -3,7 +3,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
-	Name = "⚽🤺 - Blade Ball",
+	Name = "Blade Ball",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -62,7 +62,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FriezGG/Scripts/main/
 
 
 local Tab = Window:MakeTab({
-	Name = "🌊🐕 - Meme Sea",
+	Name = "Meme Sea",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -134,7 +134,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/Elgato
 
 
 local Tab = Window:MakeTab({
-	Name = "🏠 - brookhaven",
+	Name = "brookhaven",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -171,7 +171,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-Imperial-Hub-1
 
 
 local Tab = Window:MakeTab({
-	Name = "🌊🍍 - Blox Fruit",
+	Name = "Blox Fruit",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -190,7 +190,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
 
 
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Hiru Hub",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/V3PRO/main/main.lua"))()
       		print("Succeed😁🥳")
@@ -248,7 +248,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 })
 
 local Tab = Window:MakeTab({
-	Name = "🌊👑 -King Legacy",
+	Name = "King Legacy",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
