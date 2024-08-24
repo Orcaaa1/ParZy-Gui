@@ -84,13 +84,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/trashscript
   	end    
 })
 
-Tab:AddButton({
-	Name = "REDz Hub",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()	
-      		print("Succeed😁🥳")
-  	end    
-})
 
 Tab:AddButton({
 	Name = "NEXAM HUB",
@@ -446,6 +439,14 @@ loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
       		print("Succeed😁🥳")
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Murder Mystery 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
 
 
 
