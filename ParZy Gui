@@ -431,7 +431,13 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-
   	end    
 })
 
-
+Tab:AddButton({
+	Name = "Betless Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
+      		print("Succeed😁🥳")
+  	end    
+})
 
 
 
