@@ -416,7 +416,7 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-
 })
 
 Tab:AddButton({
-	Name = "Sukuna Movement",
+	Name = "Movement Script",
 	Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Tsb-sukuna-moveset-17529"))()
       		print("Succeed😁🥳")
