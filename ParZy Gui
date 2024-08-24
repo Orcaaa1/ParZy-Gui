@@ -28,6 +28,15 @@ loadstring(game:HttpGet("https://pastebin.com/raw/T4FEyvHH"))()
   	end    
 })
 
+
+Tab:AddButton({
+	Name = "Mobile Keyboard",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
 local Section = Tab:AddSection({
 	Name = "Admin"
 })
@@ -386,3 +395,45 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/
       		print("Succeed😁🥳")
   	end    
 })
+
+
+local Tab = Window:MakeTab({
+	Name = "The Strongest Battleground",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script without key❌🔑"
+})
+
+Tab:AddButton({
+	Name = "AimLock",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Aimlock-tsb-17407"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sukuna Movement",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Tsb-sukuna-moveset-17529"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Auto Block And Aimbot",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Auto-block-and-aimbot-17492"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+
+
+
+
+
