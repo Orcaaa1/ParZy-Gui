@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Gui V1.3", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Gui V1.4", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Main Page",
@@ -9,7 +9,15 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "Other"
+	Name = "Other (Universal)"
+})
+
+Tab:AddButton({
+	Name = "Fly V3",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jQwmkrY3"))()
+      		print("Succeed😁🥳")
+  	end    
 })
 
 Tab:AddButton({
