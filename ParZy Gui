@@ -247,3 +247,58 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "🌊👑 -King Legacy",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script without key❌🔑"
+})
+
+Tab:AddButton({
+	Name = "Zee Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://zKuzy.link/ZeeHub.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Script with key✅🔑"
+})
+
+Tab:AddButton({
+	Name = "HOHO Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+-- LINK GET KEY : https://hohohubv.herokuapp.com/getkey	
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Arc Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/UPDATE-6-King-Legacy-ArcHub-Scripts-14239"))()	
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BT Project",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zen Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
+      		print("Succeed😁🥳")
+  	end    
+})
