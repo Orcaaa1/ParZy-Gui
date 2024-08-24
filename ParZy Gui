@@ -3,7 +3,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Gui V1.3", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
-	Name = "Misc",
+	Name = "Main Page",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
