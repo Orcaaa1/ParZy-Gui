@@ -3,6 +3,53 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Gui V1.2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
+	Name = "misc⚙️",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+
+local Section = Tab:AddSection({
+	Name = "Universal Script"
+})
+
+Tab:AddButton({
+	Name = "Bypass Chat",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/T4FEyvHH"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Owl Hub Aimbot",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Owl-hub-8067"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Admin"
+})
+
+Tab:AddButton({
+	Name = "Infinite Yeild",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Infinite-Yeild-4388"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rochips Panel",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rochips-panel-17414"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
 	Name = "Blade Ball",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
