@@ -216,6 +216,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EvenZ1/EvenZYeuEm/mai
 })
 
 
+Tab:AddButton({
+	Name = "REDz Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
 local Section = Tab:AddSection({
 	Name = "Script with key✅🔑"
 })
@@ -238,3 +246,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
       		print("Succeed😁🥳")
   	end    
 })
+
