@@ -14,6 +14,14 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "FPS Booster (No Texture)",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/riQJUNrR"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Fly V3",
 	Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/jQwmkrY3"))()
