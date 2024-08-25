@@ -45,6 +45,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/T4FEyvHH"))()
   	end    
 })
 
+Tab:AddButton({
+	Name = "Veresus Not FE",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/wC64LrAJ"))()
+      		print("Succeed😁🥳")
+  	end    
+})
 
 Tab:AddButton({
 	Name = "Mobile Keyboard",
@@ -55,7 +62,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifv
 })
 
 local Section = Tab:AddSection({
-	Name = "Admin"
+	Name = "universal script"
 })
 
 Tab:AddButton({
@@ -75,7 +82,7 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rochips-pan
 })
 
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Equinox Hub",
 	Callback = function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/wzB1Qh78'),true))()
       		print("Succeed😁🥳")
