@@ -74,6 +74,13 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rochips-pan
   	end    
 })
 
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/wzB1Qh78'),true))()
+      		print("Succeed😁🥳")
+  	end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "Blade Ball",
