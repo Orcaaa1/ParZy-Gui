@@ -56,16 +56,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/SyntaxRebo
   	end    
 })
 
-Tab:AddButton({
-	Name = "Backdoor 6X",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v6x/source.lua"))()
-      		print("Succeed😁🥳")
-  	end    
-})
-
-
-
 
 local Tab = Window:MakeTab({
 	Name = "Main Page",
@@ -76,6 +66,16 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Other (Universal)"
 })
+
+Tab:AddButton({
+	Name = "Backdoor V6X",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v6x/source.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+
 
 Tab:AddButton({
 	Name = "FPS Booster (No Texture)",
