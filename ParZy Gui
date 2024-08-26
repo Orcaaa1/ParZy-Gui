@@ -443,11 +443,10 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Zee Hub",
 	Callback = function()
-loadstring(game:HttpGet("https://zKuzy.link/ZeeHub.lua"))()
+loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()
       		print("Succeed😁🥳")
   	end    
 })
-
 
 local Section = Tab:AddSection({
 	Name = "Script with key✅🔑"
