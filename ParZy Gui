@@ -352,6 +352,13 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-Imperial-Hub-1
   	end    
 })
 
+Tab:AddButton({
+	Name = "R4D Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-R4D-script-no-key-17562"))()
+      		print("Succeed😁🥳")
+  	end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "Blox Fruit",
@@ -670,8 +677,24 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Survive-the-Killer!-Auto-far
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Break In 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script without key❌🔑"
+})
 
 
+Tab:AddButton({
+	Name = "Breaking Blitz",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+      		print("Succeed😁🥳")
+  	end    
+})
 
 
 
