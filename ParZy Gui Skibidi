@@ -13,7 +13,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "+ KJ Movement (Not FE)(The Stronggest Battleground",
+	Name = "+ KJ Movement (Not FE)(The Stronggest Battleground)",
 	Callback = function()
       
                 print("Succeed😁🥳")
