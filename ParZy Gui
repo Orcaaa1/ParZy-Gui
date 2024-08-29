@@ -1,6 +1,26 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Hub V1.5.4.2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Hub V1.5.4.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Section = Tab:AddSection({
+	Name = "V1.5.4.5"
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "update!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "+ KJ Movement (Not FE)"
+})
+
+local Section = Tab:AddSection({
+	Name = "+ Add This Tab"
+})
+
 
 local Tab = Window:MakeTab({
 	Name = "Executor Remake",
@@ -534,6 +554,15 @@ loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
       		print("Succeed😁🥳")
   	end    
 })
+
+Tab:AddButton({
+	Name = "KJ Movement (Not FE)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlperPro/shhh/main/KJ%20Script.lua"))()
+                print("Succeed😁🥳")
+  	end    
+})
+
 
 local Tab = Window:MakeTab({
 	Name = "Murder Mystery 2",
