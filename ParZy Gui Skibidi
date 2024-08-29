@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Hub V1.5.4.4", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Hub V1.5.4.6", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Update!",
@@ -9,11 +9,11 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "V1.5.4.4"
+	Name = "V1.5.4.6"
 })
 
 Tab:AddButton({
-	Name = "+ KJ Movement (Not FE)(The Stronggest Battleground)",
+	Name = "+ Art Chat",
 	Callback = function()
       
                 print("Succeed😁🥳")
@@ -21,7 +21,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "+ This Tab",
+	Name = "+ Free Gamepass",
 	Callback = function()
     
                 print("Succeed😁🥳")
@@ -155,8 +155,26 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifv
   	end    
 })
 
+Tab:AddButton({
+	Name = "Free Gamepass",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
+                print("Succeed😁🥳")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Art Chat",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/q6WWVCKC'))()
+                print("Succeed😁🥳")
+  	end    
+})
+
+
+
 local Section = Tab:AddSection({
-	Name = "universal script"
+	Name = "Admin"
 })
 
 Tab:AddButton({
