@@ -2,15 +2,14 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Hub V1.5.4.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-local Section = Tab:AddSection({
-	Name = "V1.5.4.5"
-})
-
-
 local Tab = Window:MakeTab({
 	Name = "update!",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "V1.5.4.5"
 })
 
 local Section = Tab:AddSection({
