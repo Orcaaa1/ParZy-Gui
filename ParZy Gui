@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "ParZy🥳 | Hub V1.5.4.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-local Tab = Window:MakeTab({
+
 
 
 
