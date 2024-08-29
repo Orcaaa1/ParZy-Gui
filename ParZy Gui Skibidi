@@ -13,7 +13,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "+ KJ Movement (Not FE)",
+	Name = "+ KJ Movement (Not FE)(The Stronggest Battleground",
 	Callback = function()
       
                 print("Succeed😁🥳")
@@ -562,6 +562,15 @@ loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
       		print("Succeed😁🥳")
   	end    
 })
+
+Tab:AddButton({
+	Name = "KJ Movement (Not FE)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlperPro/shhh/main/KJ%20Script.lua"))()
+                print("Succeed😁🥳")
+  	end    
+})
+
 
 local Tab = Window:MakeTab({
 	Name = "Murder Mystery 2",
